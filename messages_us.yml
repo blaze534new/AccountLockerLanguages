@@ -1,0 +1,7 @@
+file-version: 4
+# $user = Username  $ipAccount = Ip Address
+blocked-connection-message: "[AccountLocker] Account Locked"
+login-attempt-message: "Login attempt - Username: $user, IP: $ipAccount"
+denied-attempt-message: "Access denied for user: $user. IP does not match: $ipAccount (expected: $allowedIp)"
+reload-message: "Configuration reloaded correctly."
+
