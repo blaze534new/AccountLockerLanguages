@@ -1,0 +1,7 @@
+file-version: 1
+# $user = Username ; $ipAccount = Indirizzo IP ; $allowedIp = Ip Della Configurazione
+blocked-connection-message: "[AccountLocker] Account Bloccato"
+login-attempt-message: "Tentativo di accesso - Nome utente: $user, IP: $ipAccount"
+denied-attempt-message: "Accesso negato per l'utente: $user. L'IP non corrisponde: $ipAccount (atteso: $allowedIp)"
+reload-message: "La configurazione è stata ricaricata correttamente."
+
