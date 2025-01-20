@@ -1,5 +1,5 @@
 file-version: 4
-# $user = Username  $ipAccount = Ip Address
+# $user = Username  $ipAccount = Ip Address $allowedIp = Ip taken from config.yml
 blocked-connection-message: "[AccountLocker] Account Locked"
 login-attempt-message: "Login attempt - Username: $user, IP: $ipAccount"
 denied-attempt-message: "Access denied for user: $user. IP does not match: $ipAccount (expected: $allowedIp)"
